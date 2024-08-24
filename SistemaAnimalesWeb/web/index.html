@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <link href="estilos.css" rel="stylesheet" type="text/css">
+        <title>Sistema Gestión Animales</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div align="center">
+            <img src="images/banner.animales.001.png"><br>
+            <h1 align="center" style="font-family: verdana; color: #336699;">
+                Base de Datos de Animales
+            </h1>
+            <form action="ServletLoginController" method="get">
+            <table>
+                <tr>
+                    <td>Login</td>
+                    <td><input type="text" name="login" maxlength="15"></td>
+                </tr>
+                <tr>
+                    <td>Password</td>
+                    <td><input type="password" name="password" maxlength="15"></td>
+                </tr>
+            </table>
+            <input type="submit" value="ingresar" name="ingresar">
+            </form>
+        </div>  
+    </body>
+</html>
